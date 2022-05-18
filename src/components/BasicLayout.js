@@ -1,7 +1,7 @@
 import { Layout } from 'antd';
 import React, { useEffect } from 'react';
 import TopBar from './TopBar';
-import { CustomFooter as Footer } from './Footer';
+// import { CustomFooter as Footer } from './Footer';
 import { useReferrer } from '../utils/referrer';
 import queryString from 'query-string';
 import { useLocation } from 'react-router-dom';
@@ -29,7 +29,7 @@ export default function BasicLayout({ children }) {
           <TopBar />
         </Header>
         <Content style={{ flex: 1 }}>{children}</Content>
-        <Footer />
+        {/* <Footer /> */}
       </Layout>
     </React.Fragment>
   );
