@@ -9,6 +9,7 @@ import usePrevious from '../utils/usePrevious';
 import { ArrowUpOutlined, ArrowDownOutlined } from '@ant-design/icons';
 
 const Title = styled.div`
+  font-size: 20px;
   color: rgba(255, 255, 255, 1);
 `;
 

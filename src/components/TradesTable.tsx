@@ -7,6 +7,7 @@ import FloatingElement from './layout/FloatingElement';
 import { BonfidaTrade } from '../utils/types';
 
 const Title = styled.div`
+  font-size: 20px;
   color: rgba(255, 255, 255, 1);
 `;
 const SizeTitle = styled(Row)`
@@ -30,7 +31,7 @@ export default function PublicTrades({ smallScreen }) {
             }
       }
     >
-      <Title>Recent Market trades</Title>
+      <Title>Live Trades</Title>
       <SizeTitle>
         <Col span={8}>Price ({quoteCurrency}) </Col>
         <Col span={8} style={{ textAlign: 'right' }}>

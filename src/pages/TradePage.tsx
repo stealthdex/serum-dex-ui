@@ -160,6 +160,7 @@ function TradePageInner() {
         onAddCustomMarket={onAddCustomMarket}
       />
       <Wrapper>
+        {/* Header bar with markets for trade page */}
         <Row
           align="middle"
           style={{ paddingLeft: 5, paddingRight: 5 }}
@@ -207,6 +208,22 @@ function TradePageInner() {
               </Col>
             </React.Fragment>
           )}
+          <Col style={{ paddingLeft: '60px', paddingRight: '30px' }}>
+            <div style={{ fontSize: 24 }}>
+              $103.59
+            </div>
+            <div style={{ fontSize: 12, opacity: 0.5 }}>
+              Market Price
+            </div>
+          </Col>
+          <Col style={{ paddingLeft: '30px', paddingRight: '30px' }}>
+            <div style={{ fontSize: 24 }}>
+              $103.48
+            </div>
+            <div style={{ fontSize: 12, opacity: 0.5 }}>
+              Index Price
+            </div>
+          </Col>
         </Row>
         {component}
       </Wrapper>

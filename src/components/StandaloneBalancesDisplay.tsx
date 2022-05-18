@@ -25,6 +25,12 @@ import { useLocalStorageState } from '../utils/utils';
 import { AUTO_SETTLE_DISABLED_OVERRIDE } from '../utils/preferences';
 import { useReferrer } from '../utils/referrer';
 
+const Title = styled.div`
+  padding-top: 6px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+`;
+
 const RowBox = styled(Row)`
   padding-bottom: 20px;
 `;
@@ -186,6 +192,7 @@ export default function StandaloneBalancesDisplay() {
 
   return (
     <FloatingElement style={{ flex: 1, paddingTop: 10 }}>
+      <Title>Account</Title>
       {formattedBalances.map(
         ([currency, balances, baseOrQuote, mint], index) => (
           <React.Fragment key={index}>
