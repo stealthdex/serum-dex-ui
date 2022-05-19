@@ -366,7 +366,7 @@ const RenderNormal = ({ onChangeOrderRef, onPrice, onSize }) => {
         <StandaloneBalancesDisplay />
         <TradeForm setChangeOrderRef={onChangeOrderRef} />
       </Col>
-      <Col flex={'360px'} style={{ height: '100%' }}>
+      <Col flex="320px" style={{ height: '100%' }}>
         <Orderbook smallScreen={false} onPrice={onPrice} onSize={onSize} />
         <TradesTable smallScreen={false} />
       </Col>

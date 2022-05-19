@@ -1,10 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
+var bgColor = '#1c1c36';
+
 const Wrapper = styled.div`
   margin: 5px;
   padding: 20px;
-  background-color: #1a1a30;
+  background-color: ${bgColor};
+  border-radius: 15px;
 `;
 
 export default function FloatingElement({
