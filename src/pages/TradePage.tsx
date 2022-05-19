@@ -161,68 +161,83 @@ function TradePageInner() {
       />
       <Wrapper>
         {/* Header bar with markets for trade page */}
-        <Row
-          align="middle"
-          style={{ paddingLeft: 5, paddingRight: 5 }}
-          gutter={16}
-        >
-          <Col>
-            <MarketSelector
-              markets={markets}
-              setHandleDeprecated={setHandleDeprecated}
-              placeholder={'Select market'}
-              customMarkets={customMarkets}
-              onDeleteCustomMarket={onDeleteCustomMarket}
-            />
-          </Col>
-          {market ? (
-            <Col>
-              <Popover
-                content={<LinkAddress address={market.publicKey.toBase58()} />}
-                placement="bottomRight"
-                title="Market address"
-                trigger="click"
-              >
-                <InfoCircleOutlined style={{ color: '#2abdd2' }} />
-              </Popover>
-            </Col>
-          ) : null}
-          <Col>
-            <PlusCircleOutlined
-              style={{ color: '#2abdd2' }}
-              onClick={() => setAddMarketVisible(true)}
-            />
-          </Col>
-          {deprecatedMarkets && deprecatedMarkets.length > 0 && (
-            <React.Fragment>
+        <Row align="middle" style={{ paddingLeft: 5, paddingRight: 5 }}>
+          <Col flex="400px">
+            <Row align="middle" gutter={16}>
               <Col>
-                <Typography>
-                  You have unsettled funds on old markets! Please go through
-                  them to claim your funds.
-                </Typography>
+                <MarketSelector
+                  markets={markets}
+                  setHandleDeprecated={setHandleDeprecated}
+                  placeholder={'Select market'}
+                  customMarkets={customMarkets}
+                  onDeleteCustomMarket={onDeleteCustomMarket}
+                />
               </Col>
+              {/* Market info */}
+              {market ? (
+                <Col>
+                  <Popover
+                    content={<LinkAddress address={market.publicKey.toBase58()} />}
+                    placement="bottomRight"
+                    title="Market address"
+                    trigger="click"
+                  >
+                    <InfoCircleOutlined style={{ color: '#2abdd2' }} />
+                  </Popover>
+                </Col>
+              ) : null}
+              {/* Add market */}
               <Col>
-                <Button onClick={() => setHandleDeprecated(!handleDeprecated)}>
-                  {handleDeprecated ? 'View new markets' : 'Handle old markets'}
-                </Button>
+                <PlusCircleOutlined
+                  style={{ color: '#2abdd2' }}
+                  onClick={() => setAddMarketVisible(true)}
+                />
               </Col>
-            </React.Fragment>
-          )}
-          <Col style={{ paddingLeft: '60px', paddingRight: '30px' }}>
-            <div style={{ fontSize: 24 }}>
-              $103.59
-            </div>
-            <div style={{ fontSize: 12, opacity: 0.5 }}>
-              Market Price
-            </div>
+              {/* See unsettled deprecated markets */}
+              {deprecatedMarkets && deprecatedMarkets.length > 0 && (
+                <React.Fragment>
+                  <Col>
+                    <Typography>
+                      You have unsettled funds on old markets! Please go through
+                      them to claim your funds.
+                    </Typography>
+                  </Col>
+                  <Col>
+                    <Button onClick={() => setHandleDeprecated(!handleDeprecated)}>
+                      {handleDeprecated ? 'View new markets' : 'Handle old markets'}
+                    </Button>
+                  </Col>
+                </React.Fragment>
+              )}
+            </Row>
           </Col>
-          <Col style={{ paddingLeft: '30px', paddingRight: '30px' }}>
-            <div style={{ fontSize: 24 }}>
-              $103.48
-            </div>
-            <div style={{ fontSize: 12, opacity: 0.5 }}>
-              Index Price
-            </div>
+          <Col flex="auto">
+            <Row>
+              <Col style={{ paddingRight: '60px' }}>
+                <div style={{ fontSize: 24 }}>
+                  $52.68
+                </div>
+                <div style={{ fontSize: 12, opacity: 0.5 }}>
+                  Market Price
+                </div>
+              </Col>
+              <Col style={{ paddingRight: '60px' }}>
+                <div style={{ fontSize: 24 }}>
+                  $52.61
+                </div>
+                <div style={{ fontSize: 12, opacity: 0.5 }}>
+                  Index Price
+                </div>
+              </Col>
+              <Col style={{ paddingRight: '60px' }}>
+                <div style={{ fontSize: 24 }}>
+                  $52.61
+                </div>
+                <div style={{ fontSize: 12, opacity: 0.5 }}>
+                  24hr Change
+                </div>
+              </Col>
+            </Row>
           </Col>
         </Row>
         {component}
