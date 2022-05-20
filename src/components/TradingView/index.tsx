@@ -9,6 +9,8 @@ import { useMarket, USE_MARKETS } from '../../utils/markets';
 import * as saveLoadAdapter from './saveLoadAdapter';
 import { flatten } from '../../utils/utils';
 import { BONFIDA_DATA_FEED } from '../../utils/bonfidaConnector';
+import FloatingElement from '../layout/FloatingElement';
+import colors from '../colors';
 
 export interface ChartContainerProps {
   symbol: ChartingLibraryWidgetOptions['symbol'];
@@ -45,7 +47,7 @@ export const TVChartContainer = () => {
     libraryPath: '/charting_library/',
     chartsStorageApiVersion: '1.1',
     clientId: 'tradingview.com',
-    userId: 'public_user_id',
+    userId: 'rebeccalee128',
     fullscreen: false,
     autosize: true,
     datafeedUrl: BONFIDA_DATA_FEED,
@@ -92,6 +94,7 @@ export const TVChartContainer = () => {
       autosize: defaultProps.autosize,
       studies_overrides: defaultProps.studiesOverrides,
       theme: defaultProps.theme === 'Dark' ? 'Dark' : 'Light',
+      toolbar_bg: colors.floatingElementBg,
       overrides: {
         ...savedProperties,
         'mainSeriesProperties.candleStyle.upColor': '#41C77A',
@@ -100,6 +103,11 @@ export const TVChartContainer = () => {
         'mainSeriesProperties.candleStyle.borderDownColor': '#F23B69',
         'mainSeriesProperties.candleStyle.wickUpColor': '#41C77A',
         'mainSeriesProperties.candleStyle.wickDownColor': '#F23B69',
+        'paneProperties.background': colors.floatingElementBg,//"#131722",
+        'paneProperties.backgroundGradientStartColor': colors.floatingElementBg,//"#181C27",
+        'paneProperties.backgroundGradientEndColor': colors.floatingElementBgDarker,//"#131722",
+        // 'paneProperties.backgroundType': "gradient",
+        // 'scalesProperties.backgroundColor': "#ffffff"
       },
       // @ts-ignore
       save_load_adapter: saveLoadAdapter,
@@ -135,6 +143,7 @@ export const TVChartContainer = () => {
     };
 
     const tvWidget = new widget(widgetOptions);
+    console.log("see", widgetOptions);
 
     tvWidget.onChartReady(() => {
       tvWidgetRef.current = tvWidget;
@@ -145,5 +154,9 @@ export const TVChartContainer = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [market, tvWidgetRef.current]);
 
-  return <div id={defaultProps.containerId} className={'TVChartContainer'} />;
+  return (
+    <FloatingElement style={{ width: '100%', minHeight: '500px' }} hidePadding={true}>
+      <div id={defaultProps.containerId} className={'TVChartContainer'} />
+    </FloatingElement>
+  );
 };

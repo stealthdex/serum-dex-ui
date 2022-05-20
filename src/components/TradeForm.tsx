@@ -274,7 +274,7 @@ export default function TradeForm({
 
   return (
     <FloatingElement
-      style={{ display: 'flex', flexDirection: 'column', ...style }}
+      style={{ flex: 1, ...style }}
     >
       <div style={{ flex: 1 }}>
         <Radio.Group

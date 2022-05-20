@@ -26,11 +26,7 @@ import { notify } from '../utils/notifications';
 import { useHistory, useParams } from 'react-router-dom';
 import { nanoid } from 'nanoid';
 
-// import { TVChartContainer } from '../components/TradingView';
-// Use following stub for quick setup without the TradingView private dependency
-function TVChartContainer() {
-  return <></>
-}
+import { TVChartContainer } from '../components/TradingView';
 
 const { Option, OptGroup } = Select;
 
@@ -385,12 +381,12 @@ const RenderNormal = ({ onChangeOrderRef, onPrice, onSize }) => {
         <Orderbook smallScreen={false} onPrice={onPrice} onSize={onSize} />
         <TradesTable smallScreen={false} />
       </Col>
-      <Col flex="auto" style={{ height: '50vh' }}>
-        <Row style={{ height: '100%' }}>
+      <Col flex="auto" style={{ height: '100%' }}>
+        <Row style={{ height: '70%' }}>
           <TVChartContainer />
         </Row>
-        <Row style={{ height: '70%' }}>
-          <UserInfoTable />
+        <Row style={{ height: '30%' }}>
+          <UserInfoTable smallScreen={false}/>
         </Row>
       </Col>
     </Row>
@@ -429,7 +425,7 @@ const RenderSmall = ({ onChangeOrderRef, onPrice, onSize }) => {
       </Row>
       <Row>
         <Col flex="auto">
-          <UserInfoTable />
+          <UserInfoTable smallScreen={false}/>
         </Col>
       </Row>
     </>
@@ -464,7 +460,7 @@ const RenderSmaller = ({ onChangeOrderRef, onPrice, onSize }) => {
       </Row>
       <Row>
         <Col flex="auto">
-          <UserInfoTable />
+          <UserInfoTable smallScreen={false}/>
         </Col>
       </Row>
     </>

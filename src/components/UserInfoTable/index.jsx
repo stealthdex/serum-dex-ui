@@ -10,10 +10,21 @@ import { useOpenOrders, useBalances, useMarket } from '../../utils/markets';
 const { Paragraph } = Typography;
 const { TabPane } = Tabs;
 
-export default function Index() {
+export default function Index({ smallScreen }) {
   const { market } = useMarket();
   return (
-    <FloatingElement style={{ flex: 1, paddingTop: 20 }}>
+    <FloatingElement
+      style={
+        smallScreen
+          ? { flex: 1, paddingTop: '20px' }
+          : {
+              flex: 1,
+              marginTop: '5px',
+              minHeight: '270px',
+              maxHeight: 'calc(100vh - 700px)',
+            }
+      }
+    >
       <Typography>
         {/* <Paragraph style={{ color: 'rgba(255,255,255,0.5)' }}>
           Make sure to go to Balances and click Settle to send out your funds.
