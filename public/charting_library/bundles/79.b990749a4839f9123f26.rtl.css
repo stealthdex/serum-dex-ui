@@ -12,7 +12,7 @@
   overflow: hidden;
 }
 html.theme-dark .group-3uonVBsm {
-  background-color: var(--tv-color-pane-background, #131722);
+  background-color: var(--tv-color-pane-background, #16142b);
 }
 .group-3uonVBsm:first-child {
   border-bottom-right-radius: 0;
@@ -134,7 +134,7 @@ html.theme-dark .toolbar-LZaMRgb9.isHidden-LZaMRgb9 {
   overflow: hidden;
 }
 .customButton-LZaMRgb9 {
-  color: #131722;
+  color: #16142b;
   padding: 0 10px;
 }
 html.theme-dark .customButton-LZaMRgb9 {
@@ -142,11 +142,11 @@ html.theme-dark .customButton-LZaMRgb9 {
 }
 .customButton-LZaMRgb9.hovered-LZaMRgb9,
 .customButton-LZaMRgb9:active {
-  color: #131722;
+  color: #16142b;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   .customButton-LZaMRgb9:hover {
-    color: #131722;
+    color: #16142b;
   }
 }
 html.theme-dark .customButton-LZaMRgb9.hovered-LZaMRgb9,

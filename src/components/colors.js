@@ -1,4 +1,4 @@
 export default {
-  floatingElementBg: '#1c1c36',
-  floatingElementBgDarker: '#161630',
+  floatingElementBg: '#16142c',
+  floatingElementBgDarker: '#141226',
 };

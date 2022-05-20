@@ -165,7 +165,7 @@ html.theme-dark .fadeLeft-3obNZqvj {
   background-image: linear-gradient(
     to right,
     var(--tv-horizontal-scroll-fade-transparent-color, currentColor),
-    var(--tv-horizontal-scroll-fade-color, #131722)
+    var(--tv-horizontal-scroll-fade-color, #16142b)
   );
 }
 .fadeRight-3obNZqvj {
@@ -181,6 +181,6 @@ html.theme-dark .fadeRight-3obNZqvj {
   background-image: linear-gradient(
     to left,
     var(--tv-horizontal-scroll-fade-transparent-color, currentColor),
-    var(--tv-horizontal-scroll-fade-color, #131722)
+    var(--tv-horizontal-scroll-fade-color, #16142b)
   );
 }

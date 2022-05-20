@@ -4,18 +4,18 @@
   white-space: nowrap;
 }
 .item-f5BaKrKq.interactive-f5BaKrKq {
-  color: #131722;
+  color: #16142b;
 }
 html.theme-dark .item-f5BaKrKq.interactive-f5BaKrKq {
   color: #b2b5be;
 }
 .item-f5BaKrKq.interactive-f5BaKrKq.hovered-f5BaKrKq,
 .item-f5BaKrKq.interactive-f5BaKrKq:active {
-  color: #131722;
+  color: #16142b;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   .item-f5BaKrKq.interactive-f5BaKrKq:hover {
-    color: #131722;
+    color: #16142b;
   }
 }
 html.theme-dark .item-f5BaKrKq.interactive-f5BaKrKq.hovered-f5BaKrKq,
@@ -52,12 +52,12 @@ html.theme-dark .item-f5BaKrKq.interactive-f5BaKrKq:active {
 .item-f5BaKrKq.disabled-f5BaKrKq,
 .item-f5BaKrKq.disabled-f5BaKrKq:active {
   background-color: #fff;
-  color: #131722;
+  color: #16142b;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   .item-f5BaKrKq.disabled-f5BaKrKq:hover {
     background-color: #fff;
-    color: #131722;
+    color: #16142b;
   }
 }
 html.theme-dark .item-f5BaKrKq.disabled-f5BaKrKq,
@@ -219,12 +219,12 @@ html.theme-dark .shortcut-f5BaKrKq {
 .item-1-SF84yU.disabled-1-SF84yU,
 .item-1-SF84yU.disabled-1-SF84yU:active {
   background-color: #fff;
-  color: #131722;
+  color: #16142b;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   .item-1-SF84yU.disabled-1-SF84yU:hover {
     background-color: #fff;
-    color: #131722;
+    color: #16142b;
   }
 }
 html.theme-dark .item-1-SF84yU.disabled-1-SF84yU,
@@ -246,18 +246,18 @@ html.theme-dark .item-1-SF84yU.disabled-1-SF84yU:active {
   }
 }
 .item-1-SF84yU.interactive-1-SF84yU {
-  color: #131722;
+  color: #16142b;
 }
 html.theme-dark .item-1-SF84yU.interactive-1-SF84yU {
   color: #b2b5be;
 }
 .item-1-SF84yU.interactive-1-SF84yU.hovered-1-SF84yU,
 .item-1-SF84yU.interactive-1-SF84yU:active {
-  color: #131722;
+  color: #16142b;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   .item-1-SF84yU.interactive-1-SF84yU:hover {
-    color: #131722;
+    color: #16142b;
   }
 }
 html.theme-dark .item-1-SF84yU.interactive-1-SF84yU.hovered-1-SF84yU,
@@ -289,7 +289,7 @@ html.theme-dark .item-1-SF84yU.interactive-1-SF84yU:active {
 }
 .icon-1-SF84yU {
   align-items: center;
-  color: #131722;
+  color: #16142b;
   display: flex;
   height: 28px;
   justify-content: center;
@@ -302,7 +302,7 @@ html.theme-dark .icon-1-SF84yU {
   color: #b2b5be;
 }
 .label-1-SF84yU {
-  color: #131722;
+  color: #16142b;
   font-size: 16px;
   line-height: 24px;
   margin-right: 8px;
@@ -334,7 +334,7 @@ html.theme-dark .label-1-SF84yU {
 }
 .remove-1-SF84yU {
   align-items: center;
-  color: #131722;
+  color: #16142b;
   display: flex;
   height: 24px;
   margin-left: auto;

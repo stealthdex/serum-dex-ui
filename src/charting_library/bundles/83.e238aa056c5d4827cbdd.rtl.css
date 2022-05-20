@@ -1,6 +1,6 @@
 .action-DhEzLCdX {
   box-sizing: border-box;
-  color: #131722;
+  color: #16142b;
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -12,11 +12,11 @@ html.theme-dark .action-DhEzLCdX {
 }
 .action-DhEzLCdX.hovered-DhEzLCdX,
 .action-DhEzLCdX:active {
-  color: #131722;
+  color: #16142b;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   .action-DhEzLCdX:hover {
-    color: #131722;
+    color: #16142b;
   }
 }
 html.theme-dark .action-DhEzLCdX.hovered-DhEzLCdX,
@@ -66,7 +66,7 @@ html.theme-dark .action-DhEzLCdX.active-DhEzLCdX .label-DhEzLCdX {
   padding-top: 5px;
 }
 .label-DhEzLCdX {
-  color: #131722;
+  color: #16142b;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -159,7 +159,7 @@ html.theme-dark .container-__tSsAAY {
 .input-__tSsAAY {
   background-color: initial;
   border: none;
-  color: #131722;
+  color: #16142b;
   flex: 1;
   font-size: 14px;
   height: 22px;
