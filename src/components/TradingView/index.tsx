@@ -107,7 +107,7 @@ export const TVChartContainer = () => {
         'paneProperties.backgroundGradientStartColor': colors.floatingElementBg,//"#181C27",
         'paneProperties.backgroundGradientEndColor': colors.floatingElementBgDarker,//"#131722",
         // 'paneProperties.backgroundType': "gradient",
-        // 'scalesProperties.backgroundColor': "#ffffff"
+        'scalesProperties.backgroundColor': "#ffffff"
       },
       // @ts-ignore
       save_load_adapter: saveLoadAdapter,
