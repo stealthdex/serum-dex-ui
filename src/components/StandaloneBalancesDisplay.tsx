@@ -191,7 +191,7 @@ export default function StandaloneBalancesDisplay() {
   ];
 
   return (
-    <FloatingElement style={{ flex: 1, paddingTop: 10 }}>
+    <FloatingElement style={{ display: 'flex', flexDirection: 'column', paddingTop: 10 }}>
       <Title>Account</Title>
       {formattedBalances.map(
         ([currency, balances, baseOrQuote, mint], index) => (
