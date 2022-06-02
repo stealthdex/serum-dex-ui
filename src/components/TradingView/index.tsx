@@ -103,11 +103,11 @@ export const TVChartContainer = () => {
         'mainSeriesProperties.candleStyle.borderDownColor': '#F23B69',
         'mainSeriesProperties.candleStyle.wickUpColor': '#41C77A',
         'mainSeriesProperties.candleStyle.wickDownColor': '#F23B69',
-        'paneProperties.background': colors.floatingElementBg,//"#131722",
+        'paneProperties.background': colors.floatingElementBg,//"#16142b",
         'paneProperties.backgroundGradientStartColor': colors.floatingElementBg,//"#181C27",
-        'paneProperties.backgroundGradientEndColor': colors.floatingElementBgDarker,//"#131722",
+        'paneProperties.backgroundGradientEndColor': colors.floatingElementBgDarker,//"#16142b",
         // 'paneProperties.backgroundType': "gradient",
-        // 'scalesProperties.backgroundColor': "#ffffff"
+        'scalesProperties.backgroundColor': "#ffffff"
       },
       // @ts-ignore
       save_load_adapter: saveLoadAdapter,

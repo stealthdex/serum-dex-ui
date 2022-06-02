@@ -4,7 +4,7 @@
 .floating-toolbar-react-widgets__button {
   align-items: center;
   border-right: 1px solid #f0f3fa;
-  color: #131722;
+  color: #16142b;
   display: flex;
   height: 38px;
   justify-content: center;
@@ -16,7 +16,7 @@ html.theme-dark .floating-toolbar-react-widgets__button {
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   .floating-toolbar-react-widgets__button:hover {
-    color: #131722;
+    color: #16142b;
   }
   html.theme-dark .floating-toolbar-react-widgets__button:hover {
     color: #b2b5be;
@@ -136,7 +136,7 @@ html.theme-dark .tv-floating-toolbar.i-vertical .tv-floating-toolbar__widget {
   border-top-color: #0000;
 }
 .button-1gEXpG61 {
-  color: #131722;
+  color: #16142b;
   height: 38px;
   width: 38px;
 }
@@ -145,7 +145,7 @@ html.theme-dark .button-1gEXpG61 {
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   .button-1gEXpG61:hover {
-    color: #131722;
+    color: #16142b;
   }
   html.theme-dark .button-1gEXpG61:hover {
     color: #b2b5be;
@@ -447,7 +447,7 @@ html.theme-dark .tv-favorited-drawings-toolbar__widget {
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   .tv-favorited-drawings-toolbar__widget:hover {
-    color: #131722;
+    color: #16142b;
   }
   html.theme-dark .tv-favorited-drawings-toolbar__widget:hover {
     color: #9db2bd;

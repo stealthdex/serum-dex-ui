@@ -42,7 +42,7 @@ const Tip = styled.p`
 
 const ActionButton = styled(Button)`
   color: #2abdd2;
-  background-color: #212734;
+  background-color: #1e1e2e;
   border-width: 0px;
 `;
 
@@ -192,7 +192,30 @@ export default function StandaloneBalancesDisplay() {
 
   return (
     <FloatingElement style={{ display: 'flex', flexDirection: 'column', paddingTop: 10 }}>
-      <Title>Account</Title>
+      <Title>Wallet</Title>
+      <RowBox align="middle" justify="space-around" style={{ paddingTop: 10, paddingBottom: 0 }}>
+        <Col style={{ width: 150 }}>
+          <ActionButton
+            block
+            size="large"
+            onClick={() => setBaseOrQuote(baseOrQuote)}
+          >
+            Deposit
+          </ActionButton>
+        </Col>
+        <Col style={{ width: 150 }}>
+          <ActionButton block size="large" onClick={onSettleFunds}>
+            Settle
+          </ActionButton>
+        </Col>
+      </RowBox>
+      <Tip>
+        All deposits go to your{' '}
+        <Link external to={providerUrl}>
+          {providerName}
+        </Link>{' '}
+        wallet
+      </Tip>
       {formattedBalances.map(
         ([currency, balances, baseOrQuote, mint], index) => (
           <React.Fragment key={index}>
@@ -236,29 +259,8 @@ export default function StandaloneBalancesDisplay() {
               <Col>Unsettled balance:</Col>
               <Col>{balances && balances.unsettled}</Col>
             </RowBox>
-            <RowBox align="middle" justify="space-around">
-              <Col style={{ width: 150 }}>
-                <ActionButton
-                  block
-                  size="large"
-                  onClick={() => setBaseOrQuote(baseOrQuote)}
-                >
-                  Deposit
-                </ActionButton>
-              </Col>
-              <Col style={{ width: 150 }}>
-                <ActionButton block size="large" onClick={onSettleFunds}>
-                  Settle
-                </ActionButton>
-              </Col>
-            </RowBox>
-            <Tip>
-              All deposits go to your{' '}
-              <Link external to={providerUrl}>
-                {providerName}
-              </Link>{' '}
-              wallet
-            </Tip>
+            
+            
           </React.Fragment>
         ),
       )}

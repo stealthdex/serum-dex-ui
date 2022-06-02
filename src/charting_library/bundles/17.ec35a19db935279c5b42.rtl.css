@@ -895,7 +895,7 @@ html.theme-dark
 .appearance-stroke-12lxiUSM.intent-default-2ZbSqQDs:visited {
   background-color: initial;
   border-color: #9598a1;
-  color: #131722;
+  color: #16142b;
 }
 html.theme-dark .appearance-stroke-12lxiUSM.intent-default-2ZbSqQDs,
 html.theme-dark .appearance-stroke-12lxiUSM.intent-default-2ZbSqQDs:link,
@@ -965,7 +965,7 @@ html.theme-dark
 .appearance-stroke-12lxiUSM.intent-default-2ZbSqQDs:focus:not(:focus-visible) {
   background-color: initial;
   border-color: #9598a1;
-  color: #131722;
+  color: #16142b;
 }
 html.theme-dark
   .appearance-stroke-12lxiUSM.intent-default-2ZbSqQDs:focus:not(:focus-visible) {
@@ -1444,7 +1444,7 @@ html.theme-dark
 .appearance-text-DqKJVT3U.intent-default-2ZbSqQDs:visited {
   background-color: initial;
   border-color: #0000;
-  color: #131722;
+  color: #16142b;
 }
 html.theme-dark .appearance-text-DqKJVT3U.intent-default-2ZbSqQDs,
 html.theme-dark .appearance-text-DqKJVT3U.intent-default-2ZbSqQDs:link,
@@ -1457,7 +1457,7 @@ html.theme-dark .appearance-text-DqKJVT3U.intent-default-2ZbSqQDs:visited {
   .appearance-text-DqKJVT3U.intent-default-2ZbSqQDs:hover:not(:disabled):not([aria-disabled='true']) {
     background-color: initial;
     border-color: #787b86;
-    color: #131722;
+    color: #16142b;
   }
   html.theme-dark
     .appearance-text-DqKJVT3U.intent-default-2ZbSqQDs:hover:not(:disabled):not([aria-disabled='true']) {
@@ -1485,13 +1485,13 @@ html.theme-dark .appearance-text-DqKJVT3U.intent-default-2ZbSqQDs:after {
   border-color: #5d606bcc;
 }
 .appearance-text-DqKJVT3U.intent-default-2ZbSqQDs:focus {
-  border-color: #131722;
+  border-color: #16142b;
 }
 html.theme-dark .appearance-text-DqKJVT3U.intent-default-2ZbSqQDs:focus {
   border-color: #d1d4dc;
 }
 .appearance-text-DqKJVT3U.intent-default-2ZbSqQDs:focus-visible {
-  border-color: #131722;
+  border-color: #16142b;
 }
 html.theme-dark
   .appearance-text-DqKJVT3U.intent-default-2ZbSqQDs:focus-visible {

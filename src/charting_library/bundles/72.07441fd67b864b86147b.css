@@ -46,7 +46,7 @@
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   .control-bar__btn:hover {
     background-color: #fff;
-    color: #131722;
+    color: #16142b;
   }
 }
 .control-bar__btn:active {
@@ -304,7 +304,7 @@ html.theme-dark
   pointer-events: auto;
 }
 .item-2KhwsEwE.last-2KhwsEwE .text-2KhwsEwE {
-  color: #131722;
+  color: #16142b;
 }
 .item-2KhwsEwE .noWrapWrapper-2KhwsEwE {
   display: flex;
@@ -354,7 +354,7 @@ html.theme-dark
 }
 .noWrap-2KhwsEwE .valuesAdditionalWrapper-2KhwsEwE {
   align-self: auto;
-  color: #131722;
+  color: #16142b;
   display: block;
   min-width: 0;
   overflow: hidden;
@@ -406,7 +406,7 @@ html.theme-dark
   pointer-events: none;
 }
 .title-2KhwsEwE {
-  color: #131722;
+  color: #16142b;
   min-width: 23px;
   overflow: hidden;
   text-align: left;
@@ -672,7 +672,7 @@ html.theme-dark
 }
 .valueItem-2KhwsEwE .valueTitle-2KhwsEwE,
 .valueItem-2KhwsEwE .valueValue-2KhwsEwE {
-  color: #131722;
+  color: #16142b;
 }
 .loading-2KhwsEwE .valueItem-2KhwsEwE,
 .loading-2KhwsEwE .valuesAdditionalWrapper-2KhwsEwE {
@@ -776,7 +776,7 @@ html.theme-dark
   z-index: 0;
 }
 .buttonIcon-2KhwsEwE {
-  color: #131722;
+  color: #16142b;
   display: flex;
 }
 .button-2KhwsEwE:last-child {
@@ -800,7 +800,7 @@ html.theme-dark
   margin-top: -1px;
 }
 .disabled-2KhwsEwE .buttonIcon-2KhwsEwE {
-  color: #131722;
+  color: #16142b;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   .legend-2KhwsEwE:hover
@@ -966,7 +966,7 @@ html.theme-dark
 .toggler-2KhwsEwE .counter-2KhwsEwE,
 .toggler-2KhwsEwE .iconArrow-2KhwsEwE,
 .toggler-2KhwsEwE .objectTree-2KhwsEwE {
-  color: #131722;
+  color: #16142b;
   position: relative;
   z-index: 1;
 }
@@ -1166,7 +1166,7 @@ html.theme-dark
 .chart-widget__top--themed-dark .selected-2KhwsEwE .titleWrapper-2KhwsEwE,
 .chart-widget__top--themed-dark .withAction-2KhwsEwE .buttons-2KhwsEwE,
 .chart-widget__top--themed-dark .withAction-2KhwsEwE .titleWrapper-2KhwsEwE {
-  background-color: #131722;
+  background-color: #16142b;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   .chart-widget__top--themed-dark
@@ -1216,7 +1216,7 @@ html.theme-dark
   position: relative;
 }
 .timezone-2-RXze0M {
-  color: #131722;
+  color: #16142b;
   font-size: 14px;
   margin-bottom: 7px;
   width: 100%;
@@ -1240,7 +1240,7 @@ html.theme-dark .timezone-2-RXze0M {
 .nowWrapper-2-RXze0M .now-2-RXze0M {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-color: #131722;
+  background-color: #16142b;
   bottom: -1px;
   outline: 1px solid #fff;
   position: absolute;
@@ -1364,7 +1364,7 @@ html.theme-dark .sessionDay-2-RXze0M .timeMark-2-RXze0M {
   opacity: 1;
 }
 .sessionDay-2-RXze0M.active-2-RXze0M .weekDay-2-RXze0M {
-  color: #131722;
+  color: #16142b;
 }
 html.theme-dark .sessionDay-2-RXze0M.active-2-RXze0M .weekDay-2-RXze0M {
   color: #b2b5be;
@@ -1670,7 +1670,7 @@ html.theme-dark .dataProblemLow-1Ho_ylkC:after {
   margin-left: 4px;
 }
 .button-2fnY2ZKI .buttonIcon-2fnY2ZKI {
-  color: #131722;
+  color: #16142b;
 }
 .button-2fnY2ZKI.minimize-2fnY2ZKI .buttonIcon-2fnY2ZKI {
   color: #fff;
@@ -1763,7 +1763,7 @@ html.theme-dark .dataProblemLow-1Ho_ylkC:after {
   flex-wrap: nowrap;
 }
 .chart-widget__top--themed-dark .paneControls-2fnY2ZKI {
-  color: #131722;
+  color: #16142b;
 }
 .chart-widget__top--themed-dark .minimize-2fnY2ZKI {
   background-color: #1848cc !important;
